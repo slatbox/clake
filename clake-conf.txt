@@ -1,0 +1,8 @@
+sub "(\s+|^)gcc(\s+|$)" " clang "
+sub "(\s+|^)cc(\s+|$)" " clang "
+sub "(\s+|^)(/usr/bin/gcc)(\s+|$)" " clang "
+sub "(\s+|^)(/usr/bin/cc)(\s+|$)" " clang "
+sub "(\s+|^)(g\+\+)(\s+|$)" "clang\+\+"
+sub "(\s+|^)(/usr/bin/g\+\+)(\s+|$)" " clang\+\+ "
+sub "(\s+|^)(cpp)(\s+|$)" " clang\+\+ "
+sub "(\s+|^)(/usr/bin/cpp)(\s+|$)" " clang\+\+ "
